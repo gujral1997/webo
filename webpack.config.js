@@ -11,7 +11,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin() // ... then register it
-  ]
+  ],
+  devtool: "source-map"
 };
 
 /**
